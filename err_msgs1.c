@@ -1,3 +1,9 @@
+/*
+ * File: err_msgs1.c
+ * Auth: Mr Reagan
+ *       Mr Ackson
+ */
+
 #include "shell.h"
 
 char *error_env(char **args);
