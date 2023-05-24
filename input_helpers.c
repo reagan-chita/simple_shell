@@ -1,3 +1,9 @@
+/*
+ * File: input_helpers.c
+ * Auth: Mr Ackson
+ *       Mr Reagan
+ */
+
 #include "shell.h"
 
 char *get_args(char *line, int *exe_ret);
