@@ -1,3 +1,9 @@
+/*
+ * File: err_msgs2.c
+ * Auth: Mr Ackson
+ *       Mr Reagan
+ */
+
 #include "shell.h"
 
 char *error_126(char **args);
