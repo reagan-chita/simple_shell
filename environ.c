@@ -1,3 +1,9 @@
+/*
+ * File: environ.c
+ * Auth: Mr Reagan
+ *       Mr Ackson
+ */
+
 #include "shell.h"
 
 char **_copyenv(void);
