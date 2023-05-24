@@ -1,3 +1,9 @@
+/*
+ * File: locate.c
+ * Auth: Mr Ackson
+ *       Mr Reagan
+ */
+
 #include "shell.h"
 
 char *fill_path_dir(char *path);
