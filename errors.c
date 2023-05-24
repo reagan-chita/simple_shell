@@ -1,3 +1,9 @@
+/*
+ * File: errors.c
+ * Auth: Mr Ackson
+ *       Mr Reagan
+ */
+
 #include "shell.h"
 
 int num_len(int num);
