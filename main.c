@@ -1,3 +1,9 @@
+/*
+ * File: main.c
+ * Auth: Mr Ackson
+ *       Mr Reagan
+ */
+
 #include "shell.h"
 
 void sig_handler(int sig);
