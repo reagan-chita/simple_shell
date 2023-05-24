@@ -1,3 +1,9 @@
+/*
+ * File: str_funcs2.c
+ * Auth: Mr Ackson
+ *       Mr Reagan
+ */
+
 #include "shell.h"
 
 char *_strchr(char *s, char c);
