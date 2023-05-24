@@ -1,3 +1,12 @@
+#ifndef _SHELL_H_
+#define _SHELL_H_
+
+/*
+ * File: shell.h
+ * Auth: Alex Yu
+ *       Brennan D Baraban
+ */
+
 #include <fcntl.h>
 #include <signal.h>
 #include <sys/types.h>
@@ -7,6 +16,9 @@
 #include <unistd.h>
 #include <errno.h>
 #include <stdio.h>
+
+#define END_OF_FILE -2
+#define EXIT -3
 
 /* Global environemnt */
 extern char **environ;
@@ -124,5 +136,6 @@ void help_env(void);
 void help_setenv(void);
 void help_unsetenv(void);
 void help_history(void);
-int proc_file_commands(char *file_path, int *exe_ret);
 
+int proc_file_commands(char *file_path, int *exe_ret);
+#endif /* _SHELL_H_ */
