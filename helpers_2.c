@@ -1,3 +1,9 @@
+/*
+ * File: helpers_2.c
+ * Auth: Mr Ackson
+ *       Mr Reagan
+ */
+
 #include "shell.h"
 
 void handle_line(char **line, ssize_t read);
@@ -5,11 +11,11 @@ ssize_t get_new_len(char *line);
 void logical_ops(char *line, ssize_t *new_len);
 
 /**
- * handle_line - Partitions a line read.
+ * handle_line - Partitions a line read from standard input as needed.
  * @line: A pointer to a line read from standard input.
  * @read: The length of line.
  *
- * Description: Spaces are inserted to separate".
+ * Description: Spaces are inserted to separate ";", "||", and "&&".
  *              Replaces "#" with '\0'.
  */
 void handle_line(char **line, ssize_t read)
